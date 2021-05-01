@@ -14,39 +14,6 @@ def click(x,y):
 
 while keyboard.is_pressed('q') == False:
 
-    #mapa1
-
-##    if pyautogui.locateOnScreen('map1.png', confidence=0.99) !=None:
-##        pyautogui.click('load.png')
-##        time.sleep(1)
-##        pyautogui.click('load2.png')        
-##        print('Campeões adicionados ao map1!')
-##
-##        #mapa2
-##
-##    elif pyautogui.locateOnScreen('map2.png', confidence=0.99) !=None:
-##        pyautogui.click('load.png')
-##        time.sleep(1)
-##        pyautogui.click('load2.png')        
-##        print('Campeões adicionados ao map2!')
-##
-##        #map3
-##        
-##    elif pyautogui.locateOnScreen('map3.png', confidence=0.99) !=None:
-##        pyautogui.click('load.png')
-##        time.sleep(1)
-##        pyautogui.click('load2.png')        
-##        print('Campeões adicionados ao map3!')
-##
-##        #mapa4
-##
-##    elif pyautogui.locateOnScreen('map4.png', confidence=0.99) !=None:
-##        pyautogui.click('load.png')
-##        time.sleep(1)
-##        pyautogui.click('load2.png')        
-##        print('Campeões adicionados ao map4!')
-
-        
     if pyautogui.locateOnScreen('h1.png', confidence=0.80) !=None:
         click(541, 658)
         time.sleep(1)
