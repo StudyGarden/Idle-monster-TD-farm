@@ -31,18 +31,19 @@ while keyboard.is_pressed('q') == False:
         time.sleep(1)
         print('habilidade 4 pressionada')
         #wave prestige
-    elif pyautogui.locateOnScreen('wave1335.png', confidence=0.99) !=None:
-        pyautogui.click('pronp.png')
-        pyautogui.click('prestige.png')
-        time.sleep(1)
-        pyautogui.click('lets.png')        
-        print('Prestige start wave 1335')
-        time.sleep(10)
+##    elif pyautogui.locateOnScreen('wave1335.png', confidence=0.99) !=None:
+##        pyautogui.click('pronp.png')
+##        pyautogui.click('prestige.png')
+##        time.sleep(1)
+##        pyautogui.click('lets.png')        
+##        print('Prestige start wave 1335')
+##        time.sleep(10)
     elif pyautogui.locateOnScreen('wave1347.png', confidence=0.99) !=None:
-        pyautogui.click('pronp.png')
-        pyautogui.click('prestige.png')
+        click(475, 136)
         time.sleep(1)
-        pyautogui.click('lets.png')        
+        click(649, 626)
+        time.sleep(1)
+        click(595, 292)
         print('Prestige start wave 1347')
 
     elif pyautogui.locateOnScreen('box.png', confidence=0.80) !=None:
